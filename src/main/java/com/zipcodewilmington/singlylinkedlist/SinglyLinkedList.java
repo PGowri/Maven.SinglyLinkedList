@@ -11,4 +11,19 @@ public class SinglyLinkedList {
     public Node getHead() {
         return null;
     }
+
+    public void remove(int i) {
+    }
+
+    public int size() {
+        return 0;
+    }
+
+    public int find(int toFind) {
+        return 0;
+    }
+
+    public boolean contains(int toFind) {
+        return true ;
+    }
 }
