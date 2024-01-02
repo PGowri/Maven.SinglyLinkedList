@@ -9,11 +9,20 @@ import org.junit.Test;
 public class SinglyLinkedListTest {
 
     @Test
+    public void constructorTest(){
+        //Given
+        //When
+        SinglyLinkedList list = new SinglyLinkedList();
+        //Then
+        Assert.assertNotNull(list);
+
+    }
+    @Test
     public void addNodeTest(){
         //Given
         Node node = new Node();
-        SinglyLinkedList list =new SinglyLinkedList();
         //When
+        SinglyLinkedList list =new SinglyLinkedList();
         list.add(node);
         //Then
         Assert.assertTrue(node.equals(list.getHead()));
